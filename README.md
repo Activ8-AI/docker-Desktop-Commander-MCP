@@ -35,6 +35,14 @@ All of your AI development tools in one place.
 Desktop Commander puts all dev tools in one chat.
 Execute long-running terminal commands on your computer and manage processes through Model Context Protocol (MCP). Built on top of [MCP Filesystem Server](https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem) to provide additional search and replace file editing capabilities.
 
+## Codex Runtime — Meta Mega Codex
+Quickstart:
+1. `python3 -m venv .venv && source .venv/bin/activate`
+2. `pip install -r requirements.txt`
+3. `mkdir -p PreservationVault`
+4. `git init PreservationVault && git -C PreservationVault commit --allow-empty -m "Vault init"`
+5. `./run_and_log.sh stacks/kim_watson_stack.yaml kim advisor`
+
 ## Features
 
 - **Enhanced terminal commands with interactive process control**
