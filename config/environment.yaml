@@ -1,0 +1,5 @@
+environment:
+  organization: "Meta Mega Codex"
+  timezone: "UTC"
+  contact: "ops@metamegacodex.local"
+  runbook_url: "https://example.com/runbook"

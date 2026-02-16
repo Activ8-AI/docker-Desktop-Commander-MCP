@@ -1,0 +1,16 @@
+policies:
+  charter_standard:
+    summary: "Advisory responses must stay within Activ8 AI charter guardrails."
+    safety_checks:
+      - "No speculative medical or legal guidance"
+      - "Always cite confidence qualifiers"
+    compliance_requirements:
+      - key: "alignment"
+        description: "Reference CFMS invariants in rationale"
+      - key: "auditability"
+        description: "Persist normalized inputs/outputs"
+  logging:
+    retention_days: 30
+    redact_fields:
+      - "secrets"
+      - "api_keys"
